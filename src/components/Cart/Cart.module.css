@@ -1,0 +1,39 @@
+.cart {
+  max-width: 30rem;
+  background-color: #313131;
+  color: white;
+}
+
+.cart h2 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+  display: inline-block;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
